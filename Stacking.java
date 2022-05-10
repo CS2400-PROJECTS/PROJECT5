@@ -17,13 +17,9 @@ public int peek()
 
 public void push(int j) 
 { st[++top] = j; }
-
-
 public boolean isEmpty() 
 { return (top == -1); }
-
 } 
-
 class Vertex
 {
 public char label; 
@@ -34,7 +30,6 @@ public Vertex(char lab)
 label = lab;
 wasVisited = false;
 }
-
 } 
 class Traverse
 {
