@@ -84,14 +84,9 @@ vertexList[v].wasVisited = true;
 displayVertex(v); 
 theStack.push(v); 
 }
-} 
-
-
-for(int j=0; j<nVerts; j++) 
+} for(int j=0; j<nVerts; j++) 
 vertexList[j].wasVisited = false;
 } 
-
-
 public int notvisitedVertex(int v)
 {
 for(int j=0; j<nVerts; j++)
@@ -99,14 +94,13 @@ if(adjMat[v][j]==1 && vertexList[j].wasVisited==false)
 return j;
 return -1;
 } 
-
 } 
-
 class DFSApp
 {
 public static void main(String[] args)
 {
 Traverse theGraph = new Traverse();
+
 theGraph.addingVertexs('A'); 
 theGraph.addingVertexs('B'); 
 theGraph.addingVertexs('C'); 
@@ -116,9 +110,7 @@ theGraph.addingVertexs('F');
 theGraph.addingVertexs('G');
 theGraph.addingVertexs('H');
 theGraph.addingVertexs('I'); 
-
-  
-
+//addingEdgesBELOW
 theGraph.addingEdges(0, 1); 
 theGraph.addingEdges(0, 4);   
 theGraph.addingEdges(0, 3);   
