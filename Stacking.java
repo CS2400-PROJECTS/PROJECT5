@@ -1,10 +1,10 @@
-public class Stacking
+public class Stacking  //thestack
 {
 private final int SIZE = 20;
 private int[] st;
 private int top;
 
-public Stacking() 
+public Stacking() //thestack
 {
 st = new int[SIZE]; 
 top = -1;
@@ -95,7 +95,7 @@ return j;
 return -1;
 } 
 } 
-class DFSApp
+class DepthFirst   //DepthFirst class for adding vertexes and adding edges
 {
 public static void main(String[] args)
 {
