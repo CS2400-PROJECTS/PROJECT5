@@ -100,7 +100,7 @@ class DFSApp
 public static void main(String[] args)
 {
 Traverse theGraph = new Traverse();
-
+//addingVertexsBELOW
 theGraph.addingVertexs('A'); 
 theGraph.addingVertexs('B'); 
 theGraph.addingVertexs('C'); 
